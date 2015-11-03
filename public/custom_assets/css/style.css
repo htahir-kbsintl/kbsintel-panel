@@ -1,0 +1,135 @@
+/**
+   *  <Company> KBS International </Company>
+   *  <author> Hammad Tahir </author>
+   */
+
+* {
+    outline: none !important;
+}
+.comiseo-daterangepicker-triggerbutton.ui-button{
+
+    min-width:16em !important;
+}
+/* calendar css */
+.ui-widget-header{
+
+    background : #cccccc !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+
+    background : #e6e6e6 !important;
+}
+.comiseo-daterangepicker-calendar .ui-state-highlight a.ui-state-default{
+     color : #000 !important;
+     background :#5CB85C !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, 
+.ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+
+ background : #e6e6e6 !important;
+
+}
+/* end calendar css; */
+
+/*page loader css class*/
+.loading-parent{
+    opacity: 0.5; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%;
+}
+.loading-child{
+    position: absolute;
+    vertical-align: middle; 
+    margin: auto; 
+    top: 0px; 
+    left: 0px; 
+    bottom: 0px; 
+    right: 0px; 
+    height: 50%; 
+    width: 10%;
+}
+/*page loader css class end*/
+/*media queries*/
+@media (min-width: 1201px){
+    #drp_autogen0 {
+    width: 80% !important;
+}
+
+}
+
+@media (max-width: 1200px){
+        #drp_autogen0{
+        width: 100% !important;  
+    }
+}
+
+@media (min-width: 980px){
+    .img_responsive{
+        width: 55% !important;
+    }
+}
+@media (min-width: 1920px){
+    .img_responsive{
+        width: 35% !important;
+    }
+}
+/*end media queries*/
+/*jquery datatable css*/
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+    background: white !important;
+    color: black !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:active{
+    box-shadow: 0 0 3px #428bca inset !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current{
+    background: #428bca !important;
+    color: #ffffff !important;
+    border: black !important;
+}
+#example_previous{
+    background: #428bca !important;
+    color: white !important;
+}
+#example_next{
+    background: #428bca !important;
+    color: white !important;
+}
+#example_wrapper{
+    font-family: inherit !important;
+}
+/* jquery data table css*/
+.clear5
+{
+    clear:both;
+    height:5px;
+}
+.clear10
+{
+    clear:both;
+    height:10px;
+}
+.clear15
+{
+    clear:both;
+    height:15px;
+}
+.clear20
+{
+    clear:both;
+    height:20px;
+}
+.clear30
+{
+    clear:both;
+    height:30px;
+}
+.clear40
+{
+    clear:both;
+    height:40px;
+}
